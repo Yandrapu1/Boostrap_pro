@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mind Care Hub – A safe space for mental well-being, offering guidance on meditation, journaling, and breathing practices.">
+  <title>Mind Care Hub</title>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    :root {
+      --mch-brand: #4f9d92; 
+      --mch-accent: #f3b562; 
+    }
+    body {
+      margin: 0;
+      overflow-x: hidden;
+    }
+    .navbar-brand img {
+      max-height: 70px;
+      width: auto;
+    }
+    .carousel img {
+      height: 70vh;
+      object-fit: cover;
+    }
+    .highlight-quote {
+      font-size: 1.5rem;
+      font-style: italic;
+      line-height: 1.4;
+    }
+    .mission-text {
+      max-width: 65ch;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .about-box {
+      border-radius: .5rem;
+      background: #f8f9fa;
+      padding: 2rem;
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="my_asserts/newlogo.png" alt="Mind Care Hub Logo">
+        <span>Mind Care Hub</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Self-Help</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="jou.html">Journaling</a></li>
+              <li><a class="dropdown-item" href="bre.html">Breathing</a></li>
+              <li><a class="dropdown-item" href="med.html">Meditation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section>
+    <div class="container-fluid p-0">
+      <div id="mycar" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="my_asserts/mh1.jpeg" class="d-block w-100" alt="Mind Care Hub Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="my_asserts/mh2.jpeg" class="d-block w-100" alt="Mind Care Hub Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="my_asserts/mh3.jpeg" class="d-block w-100" alt="Mind Care Hub Slide 3">
+          </div>
+          <div class="carousel-item">
+            <img src="my_asserts/mh4.jpeg" class="d-block w-100" alt="Mind Care Hub Slide 4">
+          </div>
+          <div class="carousel-item">
+            <img src="my_asserts/mh5.jpeg" class="d-block w-100" alt="Mind Care Hub Slide 5">
+          </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#mycar" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#mycar" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-4 text-center">
+    <div class="container">
+      <h1 class="highlight-quote">
+        “Healing doesn’t mean the damage never existed. It means the damage no longer controls your life.”
+      </h1>
+    </div>
+  </section>
+
+  
+  <section class="text-center my-5">
+    <div class="container">
+      <h2 class="fw-bold">Your Mental Well-being Matters</h2>
+      <p class="mission-text">
+        At MindCare Hub, we believe that mental health is not a luxury — it’s a necessity.
+        Start your journey to emotional wellness, one mindful step at a time.
+      </p>
+    </div>
+  </section>
+
+  
+  <section class="text-center bg-light py-5">
+    <div class="container">
+      <h3 class="mb-3">About / Mission</h3>
+      <p class="mission-text">
+        MindCare Hub is built to break the stigma around mental health.
+        We offer science-backed tools, gentle guidance, and a safe space for everyone — because every mind deserves peace.
+      </p>
+    </div>
+  </section>
+
+  
+  <section class="py-5">
+    <div class="container about-box">
+      <div class="row align-items-center">
+        <div class="col-md-3 text-center">
+          <img src="my_asserts/mhboxlogo.jpeg" alt="Mental Health Box" class="img-fluid rounded shadow-sm">
+        </div>
+        <div class="col-md-9">
+          <p class="mt-3 mt-md-0">
+            Mental health is not a destination, but a journey filled with highs, lows, setbacks, and breakthroughs.
+            In a world that often praises productivity over peace, it’s easy to forget the value of simply being okay.
+            This space is created for you — to remind you that your feelings are valid, your struggles are real, and most importantly, you are not alone.
+            Whether you're navigating anxiety, stress, burnout, or simply trying to understand yourself better,
+            let this be your gentle corner of the internet to breathe, reflect, and grow at your own pace.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 MindCare Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
