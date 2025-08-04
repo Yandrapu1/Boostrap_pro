@@ -6,9 +6,9 @@
   <meta name="description" content="Breathing exercises and mindfulness techniques to calm the mind and body - Mind Care Hub." />
   <title>Mind Care Hub | Breathing</title>
 
-  <!-- Font Awesome -->
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Bootstrap -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
 
@@ -31,35 +31,34 @@
   </style>
 </head>
 <body class="d-flex flex-column min-vh-100">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <img src="my_asserts/newlogo.png" alt="Mind Care Hub Logo" height="70" class="me-2" />
-        Mind Care Hub
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="my_asserts/newlogo.png" alt="Mind Care Hub logo" height="70" width="80" />
+        <span>Mind Care Hub</span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
           <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Self-Help</a>
-            <ul class="dropdown-menu">
-              <li><a href="jou.html" class="dropdown-item">Journaling</a></li>
-              <li><a href="bre.html" class="dropdown-item active">Breathing</a></li>
-              <li><a href="med.html" class="dropdown-item">Meditation</a></li>
+            <a href="#" class="nav-link dropdown-toggle active" id="selfHelpMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">Self-Help</a>
+            <ul class="dropdown-menu" aria-labelledby="selfHelpMenu">
+              <li><a class="dropdown-item active" aria-current="page" href="jou.html">Journaling</a></li>
+              <li><a class="dropdown-item" href="bre.html">Breathing</a></li>
+              <li><a class="dropdown-item" href="med.html">Meditation</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Intro Section -->
+  
   <section class="container my-5">
     <div class="row align-items-center">
       <div class="col-md-6 mb-3 mb-md-0">
@@ -73,7 +72,7 @@
     </div>
   </section>
 
-  <!-- Benefits Section -->
+ 
   <section class="container my-5">
     <div class="row align-items-center">
       <div class="col-md-6 content-max">
@@ -92,7 +91,7 @@
     </div>
   </section>
 
-  <!-- Techniques Section -->
+  
   <section class="container my-5">
     <h2 class="fw-bold text-center mb-5">3 Must-Try Breathing Techniques</h2>
     <div class="row g-4">
@@ -126,13 +125,13 @@
     </div>
   </section>
 
-  <!-- Quote -->
+  
   <section class="container text-center my-5">
     <h2 class="fw-bold">Quote</h2>
     <h5 class="fst-italic">“Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.”</h5>
   </section>
 
-  <!-- Footer -->
+  
   <footer class="bg-dark text-white text-center py-3 mt-auto">
     <p class="mb-0">&copy; 2025 MindCare Hub. All rights reserved.</p>
   </footer>
